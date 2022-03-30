@@ -1,0 +1,556 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background-color: #F8F3E9;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.menu {
+    margin-left: 721px;
+}
+body {
+    line-height: 1;
+    background-color: #F8F3E9;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+.header {
+    background-color: #F7F6F5;
+    height: 70px;
+    width: 100%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    position: fixed;
+    top: 0%;
+	
+	}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/Recurso%201.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    position: absolute;
+    top: 15px;
+    float: left;
+    right: 5%;
+}
+.menu {
+    font-family: "Cascadia Code";
+    width: 30%;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: -250px;
+}
+.menhambur {
+    width: auto;
+    height: 37px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.header label {
+    cursor: pointer;
+}
+
+
+#btn_menu:checked ~ .menu {
+    transition: all 300ms;
+    margin-left: 3px;
+
+
+
+}
+#btn_menu {
+    display: none;
+}
+
+
+.menu li a{
+    color: #F8F3E9;
+    font-family: "Cascadia Code";
+    text-decoration: none;
+}
+.menu li {
+    font-family: "Cascadia Code";
+    text-decoration: none;
+    white-space: normal;
+    vertical-align: baseline;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-top: 1px solid #F8F3E9;
+    color: #F8F3E9;
+	
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+
+
+}
+.menu ul {
+    background-color: #000000;
+}
+.quiensoy {
+    color: #000000;
+    font-family: "Cascadia Code";
+    font-size: 124px;
+    padding-top: 225px;
+    padding-left: 181px;
+    width: auto;
+    height: 192px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+.parrperfil {
+    color: #000000;
+    font-family: Rubik;
+    font-size: 25px;
+    margin-right: 40px;
+    padding-left: 833px;
+    padding-right: 13px;
+    padding-top: 610px;
+}
+.tech {
+    width: auto;
+    height: 82px;
+    margin-left: 266px;
+    margin-top: 79px;
+    padding-top: 74px;
+}
+.cun  {
+    width: auto;
+    height: 108px;
+    margin-left: 266px;
+    margin-top: 79px;
+    padding-top: 74px;
+}
+.parrcun {
+    color: #000000;
+    font-family: Rubik;
+    font-size: 25px;
+    padding-left: 833px;
+    float: left;
+    margin-top: -108px;
+}
+
+
+.parrtech {
+    color: #000000;
+    font-family: Rubik;
+    font-size: 25px;
+    padding-left: 833px;
+    padding-right: 13px;
+    padding-top: 0px;
+    float: left;
+    margin-top: -80px;
+}
+
+
+.bolitas {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 54px;
+    float: left;
+    padding-top: 243px;
+    padding-left: 55px;
+}
+.transmi {
+    clear: left;
+    width: auto;
+    height: 71px;
+    padding-top: 196px;
+    float: left;
+    margin-left: 266px;
+}
+
+.fondfooter {
+    background-image: url(../img/fondfooter.svg);
+    width: 100%;
+    height: 326px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    bottom: 0%;
+    margin-top: 424px;
+}
+.fondfooter .escribeme {
+    color: #FFFFFF;
+    font-family: "Cascadia Code";
+    font-size: 90px;
+    float: left;
+    padding-left: 30px;
+    padding-top: 51px;
+    padding-bottom: 28px;
+}
+.ai {
+    padding-left: 133px;
+    padding-top: 90px;
+    float: left;
+    width: auto;
+    height: 170px;
+}
+.psd {
+    float: left;
+    margin-top: 99px;
+    margin-left: 201px;
+    width: auto;
+    height: 170px;
+}
+.afteff {
+    width: auto;
+    height: 170px;
+    margin-top: 99px;
+    margin-left: 201px;
+}
+.articulate {
+    width: auto;
+    height: 170px;
+    margin-top: 88px;
+    margin-left: 355px;
+}
+.premiere {
+    width: auto;
+    height: 170px;
+    margin-left: 266px;
+}
+.insta:hover {
+    width: auto;
+    height: 35px;
+    float: left;
+    clear: left;
+    margin-left: 34px;
+    background-image: url(../img/intaavajo.png);
+    background-size: 36px auto;
+    background-repeat: no-repeat;
+    background-position: 19% 0%;
+}
+
+.insta {
+    width: auto;
+    height: 35px;
+    float: left;
+    clear: left;
+    margin-left: 34px;
+}
+.twitter {
+    width: auto;
+    height: 35px;
+    float: left;
+    padding-left: 30px;
+}
+.twitter:hover {
+    width: auto;
+    height: 35px;
+    float: left;
+    padding-left: 30px;
+    background-image: url(../img/twiterabj.svg);
+    background-repeat: no-repeat;
+    background-size: 42px auto;
+    background-position: 83% 0%;
+}
+.behance {
+    width: auto;
+    height: 35px;
+    float: left;
+    margin-left: 30px;
+}
+.behance:hover {
+    width: auto;
+    height: 35px;
+    float: left;
+    margin-left: 30px;
+    background-image: url(../img/behanceabaj.svg);
+    background-repeat: no-repeat;
+    background-size: 52px auto;
+    cursor: pointer;
+}
+.formnombre {
+    margin-left: 294px;
+    margin-top: 60px;
+    background-color: #F8F3E9;
+    font-family: Rubik;
+    width: auto;
+    height: 31px;
+    text-indent: 20px;
+}
+.formcelular {
+    margin-left: 294px;
+    margin-top: 15px;
+    width: 585px;
+    height: 31px;
+    background-color: #F8F3E9;
+    font-family: Rubik;
+    text-indent: 20px;
+}
+.formtext {
+    margin-left: 294px;
+    margin-top: 15px;
+    height: 88px;
+    background-color: #F8F3E9;
+    font-family: Rubik;
+    text-indent: 20px;
+}
+.enviar {
+    background-color: #000000;
+    color: #F8F3E9;
+    font-family: Rubik;
+    margin-left: 798px;
+    margin-top: 16px;
+    width: 96px;
+    height: 26px;
+}
+.flecha {
+    float: right;
+    width: auto;
+    height: 61px;
+    margin-right: 24px;
+    margin-top: -11px;
+    cursor: pointer;
+}.imghelado {
+    width: auto;
+    height: 412px;
+    padding-top: 257px;
+    padding-left: 338px;
+    float: left;
+    padding-right: 41px;
+    padding-bottom: 9px;
+}
+.imghelado:hover {
+    width: auto;
+    height: 412px;
+    padding-top: 257px;
+    padding-left: 338px;
+    float: left;
+    background-image: url(../img/fondoilust@2x.png);
+    background-repeat: no-repeat;
+    background-size: 309px auto;
+    background-position: 345px 99%;
+}
+.imgcolom {
+    width: auto;
+    height: 412px;
+    padding-top: 257px;
+    padding-left: 100px;
+    padding-right: 22px;
+    padding-bottom: 20px;
+}
+.imgcolom:hover {
+    width: auto;
+    height: 412px;
+    padding-top: 257px;
+    padding-left: 100px;
+    padding-right: 22px;
+    padding-bottom: 20px;
+    background-image: url(../img/fondoilust@2x.png);
+    background-position: 108px 268px;
+    background-size: 309px auto;
+    background-repeat: no-repeat;
+}
+.imgflaut {
+    width: auto;
+    height: 412px;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-bottom: 22px;
+    padding-right: 18px;
+}
+.imgflaut:hover {
+    width: auto;
+    height: 412px;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-bottom: 22px;
+    background-image: url(../img/fondoilust@2x.png);
+    background-repeat: no-repeat;
+    background-position: 109px 37%;
+    background-size: 309px auto;
+}
+
+@media (min-width: 700px){
+.header {
+    background-color: #F7F6F5;
+    height: 70px;
+    width: 100%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    position: fixed;
+    top: 0%;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/Recurso%201.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    position: absolute;
+    top: 15px;
+    float: left;
+    right: 5%;
+}
+.menu {
+    display: inline-block;
+    float: left;
+    font-family: "Cascadia Code";
+    margin-left: 23%;
+}
+.menu li a {
+    color: black;
+    font-family: "Cascadia Code";
+    text-decoration: none;
+}
+.menu li:hover {
+    color: black;
+    font-family: "Cascadia Code";
+    text-decoration: underline;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Cascadia Code";
+    color: #000000;
+    text-decoration: none;
+    white-space: normal;
+    padding-right: 85px;
+    vertical-align: baseline;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #F7F6F5;
+}
+
+
+
+
+
+
+
+
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/Recurso%201.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    position: absolute;
+    top: 15px;
+    float: left;
+    right: 5%;
+}
+.menu {
+    display: inline-block;
+    float: left;
+    font-family: "Cascadia Code";
+    margin-left: 23%;
+}
+.menu li a {
+    color: #F8F3E9;
+    font-family: "Cascadia Code";
+    text-decoration: none;
+}
+.menu li a:hover  {
+    color: black;
+    font-family: "Cascadia Code";
+    text-decoration: underline;
+}
+#btn_menu:checked ~ .menu {
+    transition: all 300ms;
+    margin-left: 3px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Cascadia Code";
+    color: #F8F3E9;
+    text-decoration: none;
+    white-space: normal;
+    padding-right: 5px;
+    vertical-align: baseline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-top: 1px solid #F8F3E9;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+}
+#btn_menu {
+    display: none;
+}
+.menhambur {
+    width: auto;
+    height: 37px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.header label {
+    cursor: pointer;
+}
